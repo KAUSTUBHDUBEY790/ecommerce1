@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colo Span</title>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/ce07841c3e.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+  <!-- Box-icons -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/header.css">
+</head>
+
+<body>
+  <section id="header">
+    <a class="navbar-brand" href=""><h2>COLO<span id="header-red">SHOP</span></h2></a>
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="./header.html">Home</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+    </div>
+    <div class = "cart">
+      <button type = "button" id = "cart-btn">
+        <i class = "fas fa-shopping-cart"></i>
+        <span id = "cart-count-info"></span>
+      </button>
+      
+      <div class = "cart-container">
+        <div class = "cart-list">
+
+        </div>
+
+        <div class = "cart-total">
+          <h3>Total: $</h3>
+          <span id = "cart-total-value"></span>
+        </div>
+      </div>
+    </div>
+    <div id="mobile">
+        <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+  <section id="hero">
+    <h4>SPRING / SUMMER COLLECTION 2022</h4>
+    <h1>Get up to 30% Off New Arrivals</h1>
+    <button class="white"><a href="./shop.html">SHOP NOW</a> </button>
+  </section>
+  <section id="sm-banner" class="section-p1">
+    <div class="banner-box">
+      <button class="white"><a href="./shop.html"> Women's</a></button>
+    </div>
+    <div class="banner-box banner-box2">
+      <button class="white"><a href="./shop.html"> Men's</a></button>
+    </div>
+    <div class="banner-box banner-box3">
+      <button class="white"><a href="./shop.html"> Children's</a></button>
+    </div>
+    <div class="banner-box banner-box4">
+      <button class="white"><a href="./shop.html"> Accessories</a></button>
+    </div>
+  </section>
+
+  <!-- products section  -->
+  <section class = "products">
+    <div class = "container">
+      <h2>New Arrivals</h2>
+      <div class = "product-list">
+        
+      </div>
+    </div>
+  </section>
+  <!-- end of products section -->
+
+
+  <section id="newsletter" class="section-p1" class="section-m1">
+    <div class="newstext">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter and get 20% off your first purchase</p>      
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email">
+        <button class="normal">SUBSCRIBE</button>
+    </div>
+  </section>
+
+
+  <footer class="section-p1">
+    <div class="col">
+      <h2>COLO<span id="header-red">SHOP</span></h2>
+      <div class="follow"></div>
+      <h4>follow us</h4>
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="copyright">
+        <p>Copyrights 2022</p>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+        <h4>Product</h4>
+        <a href="#">Download</a>
+        <a href="#">Pricing</a>
+        <a href="#">Locations</a>
+        <a href="#">Server</a>
+        <a href="#">Countries</a>
+        <a href="#">Blog</a>
+    </div>
+    <div class="col">
+        <h4>Category</h4>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Best Seller</a>
+        <a href="#">New Arrivals</a>
+        
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">My Account</a>
+        <a href="#">Discount</a>
+        <a href="#">Returns</a>
+        <a href="#">Order History</a>
+        <a href="#">Order Tracking</a>
+        
+    </div>
+
+    <div class="col install">
+        <h4>Contact Us</h4>
+        <p><strong>Address: </strong>123 Street Trafford, London, UK</p>
+        <p><strong>Mail: </strong>info@sitename.com</p>
+        <p><strong>Phone: </strong>+456 789 789 001</p>
+        
+    </div>
+
+   
+  </footer>
+
+<script src="./javaScript/header.js"></script>
+</body>
+
+</html>

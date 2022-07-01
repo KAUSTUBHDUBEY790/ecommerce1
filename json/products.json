@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Puma",
+        "category" : "Tshirt",
+        "price" : "50.25",
+        "imgSrc" : "../assets/new-arrivals/img1.jpg"
+    },
+    {
+        "name" : "RayBan",
+        "category" : "SunGlasses",
+        "price" : "102.00",
+        "imgSrc" : "../assets/new-arrivals/img2.jpg"
+    },
+    {
+        "name" : "ColoShop",
+        "category" : "Exclusive Trouser",
+        "price" : "15.00",
+        "imgSrc" : "../assets/new-arrivals/img3.jpg"
+    },
+    {
+        "name" : "Levis",
+        "category" : "Bag",
+        "price" : "23.75",
+        "imgSrc" : "../assets/new-arrivals/img4.jpg"
+    },
+    {
+        "name" : "Khadi",
+        "category" : "Traditional cloth",
+        "price" : "50.00",
+        "imgSrc" : "../assets/new-arrivals/img5.jpg"
+    },
+    {
+        "name" : "Rado",
+        "category" : "Premium black watch",
+        "price" : "200.50",
+        "imgSrc" : "../assets/new-arrivals/img6.jpg"
+    },
+    {
+        "name" : "Avitas",
+        "category" : "Women Full body outfit",
+        "price" : "5.50",
+        "imgSrc" : "../assets/new-arrivals/img7.webp"
+    },
+    {
+        "name" : "WoodLand",
+        "category" : "SunSet Furr Jacket",
+        "price" : "288.99",
+        "imgSrc" : "../assets/new-arrivals/img8.webp"
+    }
+]
